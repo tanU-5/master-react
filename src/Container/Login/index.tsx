@@ -57,7 +57,7 @@ const Login = () => {
             console.log(errors);
           });
           console.log(inputErr);
-	  
+	  alert(inputErr);
           setInputError(inputErr);
         }
 	alert(message);
