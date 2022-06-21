@@ -1,0 +1,41 @@
+label{
+	margin:10px;
+	font-family: poppins;
+}
+button{
+	padding:10px 20px;
+	font-size: 15px;
+	font-weight:bold;
+	border:1px solid transparent;
+	background-color: rgb(247, 1, 1);
+	border-radius: 10px;
+
+}
+.form-layout{
+	
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	width:20%;
+	
+	border-radius: 20px;
+	border:none;
+	background: white;
+	box-shadow:  0px 3px 3px 3px rgb(218, 218, 218);
+}
+.form-holder{
+	display: flex;
+	justify-content: center;
+}
+.login-input{
+	span{
+		color:red;
+		
+	}
+}
+@media (min-width:300px) and (max-width:800px){
+.form-layout{
+	width:100%;
+	padding:30px
+}
+}
